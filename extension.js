@@ -25,7 +25,9 @@ var Utilities = (function () {
     };
 
     Utilities.prototype.init = function (viewColumn, context, previewUri) {
-        let proceed = this.checkDocumentIsHTML(true);
+        // let proceed = this.checkDocumentIsHTML(true);
+        // Machine will not tell me what to do!!!
+        let proceed = true;
         if (proceed) {
             var previewManager = new PreviewManager();
             vscode.workspace.registerTextDocumentContentProvider('HTMLPreview', previewManager.htmlDocumentContentProvider);
