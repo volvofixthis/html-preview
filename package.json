@@ -24,7 +24,7 @@
         "commands": [
             {
                 "command": "html.showPreview",
-                "title": "实时视图"
+                "title": "Html preview"
             }
         ],
         "menus": {
